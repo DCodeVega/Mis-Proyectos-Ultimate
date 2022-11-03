@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mi primer Blog</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Mi Primer Blog</h1>
+    <h2>Hecho por Juan Diego Vega Martinez</h2>
+    <img src="/img/04.jpg" alt="imagen 1" >
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla nemo perferendis deserunt maiores. Deleniti atque quisquam, ducimus asperiores odio fuga adipisci obcaecati facilis. Eos illum dolore ratione natus similique in.</p>
+
+    <h3 id="registro">Registro</h3>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo incidunt, fuga libero qui dignissimos ipsa nemo optio vel blanditiis earum atque nihil quod itaque nostrum culpa, nisi dolorum officia velit?</p>
+
+    <form action="formulario" method="POST">
+        <!-- Nombre -->
+        <label class="formulario" for="nombre">Nombre</label>
+        <input type="text" name="Nombre" placeholder="Ingrese su nombre..." autocomplete="off">
+
+        <!-- CI -->
+        <label for="ci">CI</label>
+        <input type="text" name="ci" placeholder="Ingrese su CI...">
+
+        <br>
+        <!-- Opciones de Marcas -->
+        <label class="formulario" for="ocupacion">Estudiante</label>
+        <input type="checkbox" name="Estudiante">
+
+        <label class="formulario" for="ocupacion">Docente</label>
+        <input type="checkbox" name="Docente">
+
+        <label class="formulario" for="ocupacion">Otro...</label>
+        <input type="checkbox" name="Otro" placeholder="Otros...">
+
+        <br>
+        <!-- Botones -->
+        <button type="boton">Boton</button>
+        <button type="reset">Resetear</button>
+        <button type="submit">Enviar</button>
+
+        <ul>
+            <li>uno</li>
+            <li>dos</li>
+            <li>tres</li>
+            <li>cuatro</li>
+            <li>cinco</li>
+        </ul>
+
+    </form>
+    <button class="btn1" style="
+    font-size: 10px;
+    background-color: rgb(45, 45, 200);
+    ">Boton</button>
+
+</body>
+</html>

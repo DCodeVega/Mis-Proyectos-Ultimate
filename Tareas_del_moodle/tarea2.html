@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mi Primer Blog</title>
+</head>
+<body>
+    <h1>MI PRIMER BLOG</h1>
+    <h2>CURSO PRACTICO POR:  <br> <strong> JUAN DIEGO VEGA MARTINEZ  </strong> </h2>
+    <h3>DESARROLLO WEB CON PHP Y MARIADB (MYSQL)</h3>
+    <p><em>Diego Vega: -</em> Al inscribirme vi que las clases serán los dias Martes,
+        Jueves y Domingos desde las 19:00 hasta las 21:00 horas y que durarian 4 
+        semanas en concluir el curso.  </p>
+    
+    <img src="/img/imagen del curso.png" alt="poster" width="500">
+
+    <h3>LO QUE APRENDIMOS EN LA PRIMERA SEMANA</h3>
+    <p>Hasta ahora lo que nos enseñaron en 3 clases fueron:</p>
+
+    <ol type="I">
+        <li>Introduccion al cursos</li>
+        <li>Orientando y recordando a HTML</li>
+        <li>Aprendiendo el Lenguaje PHP</li>
+    </ol>
+
+    <h3>EJERCICIOS PRACTICOS EN HTML</h3>
+
+    <nav>
+        <ul type="square">
+            <li><a href="#post-1">Importar Imagenes</a> </li>
+            <li><a href="#post-2"> Formularios</a></li>
+            <li><a href="#post-3">Botones</a> </li>
+        </ul>
+    </nav>
+
+    <h3>EJERCICIOS PUESTOS EN PRACTICA</h3>
+    <article id="post-1">
+        <h4>IMPORTAR IMAGENES</h4>
+        <p>importar imagenes para tu sitio web en tu HTML se hace de la siguiente manera:</p>
+        <p>se escribe 'img' en tu HTML seguidamente pulsamos enter, para que luego
+            escribas la ruta de tu imagen segun en la carpeta en la quye este
+            (Es preferible que las rutas de tus imagenes este junto con tus archivos HTMl y CSS).</p>
+
+        <img src="/Capturas_de_pantalla/cap_4.png" alt="captura" width="500">
+        <p>este es un ejemplo de como importar una imagen en HTML.</p>
+
+        <img src="/img/post de Google.png" alt="capturaGoogle" width="500">
+        <p>Este es un Ejemplo del resultado: de captura de Google.
+            Por cierto  <em>si Quieres ir al Buscador Google desde otra pestaña este es el Enlace:</em>
+        </p>
+        <a href="https://google.com" target="_blank">Ir a Google</a>
+
+    </article>
+    <article id="post-2">
+        <h4>FORMULARIOS</h4>
+        <p>En esta parte es un poco complicado de entender ya que es un poco complejo 
+            en estar uniendo label, inputs, acciones que deben hacer, etc... <strong>Pero nada que la practica no aga al Mestro.</strong> 
+        </p>
+
+        <form action="" method="post">
+            <h5>DATOS</h5>
+            <label for="datos">Nombres y Apellidos</label>
+            <input type="text" id="nombre" name="id" size="40" placeholder="Ingrese su Nombre Completo" required>
+
+            <h5>OCUPACION</h5>
+            <input type="checkbox" name="ocupacion" id="estudiante" >estudiante
+            <input type="checkbox" name="ocupacion" id="docente">docente
+            <input type="checkbox" name="ocupacion" id="externo" >externo
+            <input type="checkbox" name="ocupacion" id="otros">otros...
+
+            <h5>EDAD</h5>
+            <input type="radio" id="menos18" name="menor" >Menor de 18 años
+            <br>
+            <input type="radio" id="18a30" name="mayor" >18 a 30 años
+            <br>
+            <input type="radio" id="31a50" name="mayorcito" >31 a 50 años
+            <br>
+            <input type="radio" id="mayor50" name="persona-adulta" >mas de 50 años
+
+            <article id="post-3">
+                <h4>BOTONES </h4>
+                <p>Para crear botones no es solo crearlos tambien necesitamos que cumplan tareas y/o funciones para que la pagina sirva e interactue con el usuario.</p>
+
+                <p>Mensaje o Reporte a enviar: </p>
+                <textarea name="mensaje" id="comentario" cols="20" rows="10" placeholder="Escriba su Comentario Aquí..."></textarea>
+                <input type="submit" value="Enviar Mensaje">
+                <select >
+                    <option>Reportar Pagina</option>
+                    <option>Sugerencia</option>
+                    <option>Errores</option>
+                    <option>Corregir la estructura HTML</option>
+                    <br>
+                </select>
+                <button type="reset" >Limpiar Comentario</button>
+            </article>
+        </form>
+    </article>
+</body>
+</html>

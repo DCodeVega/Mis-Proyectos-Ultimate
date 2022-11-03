@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html 
+<head>
+    <meta charset="UTF-8">
+    <title>Introduccion HTML</title>
+</head>
+<body>
+    <h1>Mi primer heading</h1>
+    <h2>Mi segundo heading</h2>
+    <h3>Mi tercer heading</h3>
+    <h4>Mi cuarto heading</h4>
+    <h5>Mi quinto heading</h5>
+    <h6>Mi sexto heading</h6>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit distinctio natus atque minus blanditiis nostrum ipsum id culpa sunt commodi ratione, tempore cumque aut autem modi non, tenetur, vel aperiam?</p>
+
+    <hr>
+    <h2>Titulo dos</h2>
+    <p>Texto de prueba</p>
+    <p>Lorem ipsum <span style="color: red;"> dolor sit amet, consectetur adipisicing elit. Quas error, illum delectus</span>  fugit ratione debitis neque, totam asperiores corporis unde, <strong>quam tempore quibusdam? Deleniti et voluptate libero blanditiis</strong> <br />, molestias tenetur.</p>
+
+    <!-- este es un comentario que no aparecera en el navegador -->
+
+    <!-- esto es un aparrafo ...para encerrar y abrir comentarios se pone ctrl + Ç-->
+
+    <a href="https://google.com"target="_blank">Ir a google</a>
+    <!-- a + enter target="_blank"=abrir otra ventana para este enlace -->
+
+    <ing src="img/15f7960c3f8505e6f35d6fca718678ca.jpg" alt="imagen de prueba" />
+    <!-- en el src= poner el enlace o direccion de una imagen a mostrar. en el alt= se pone el nombre a mostrar -->
+
+    <!-- Formularios -->
+    <form action="/formulario" method="POST">
+        <label for="nombre">NOMBRE</label>
+        <input type="text" name="nombre" id="nombre" autocomplete="off" placeholder="Ingrese su nombre..." required>
+        <!-- label para mostrar su titulo del input -->
+        <!-- input para enviar o declarar un texto -->
+        <br>
+        <!-- espacio / salto de linea -->
+        <label for="apellido">APELLIDO</label>
+        <input type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido..." required>
+
+        <br>
+
+        <label for="comentario">COMENTARIO</label>
+        <textarea name="name" id="comentario" cols="50" rows="2"></textarea>
+
+        <br>
+
+        <label for="email">EMAIL</label>
+        <input type="email" name="email" id="email" required>
+
+        <br>
+
+        <label for="clave">CLAVE</label>
+        <input type="clave" name="clave" id="clave">
+
+        <br>
+
+        <input type="radio">
+
+        <input type="checkbox">
+
+        <br>
+
+        <button type="boton">boton</button>
+        <button type="reset" >RESET </button>
+        <button type="submit">Enviar</button>
+
+    </form>
+    <br>
+    <ul>
+        <li value="5">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Producto</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <!-- thead es la cabezera o principal de la tabla -->
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Computador Lenovo</td>
+                <td>1000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Computador HP</td>
+                <td>2000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="2">Total</th>
+                <th>3000</th>
+            </tr>
+        </tfoot>
+
+    </table>
+
+
+</body>
+</html>

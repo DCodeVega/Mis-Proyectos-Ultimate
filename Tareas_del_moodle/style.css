@@ -1,0 +1,93 @@
+/* Como usar el CSS en archivo .css: */
+
+/* 1º forma Numero Uno "Selector Por tipo" seleccionas el tipo que quieras a todos lo elementos que tengas en tu hmtl
+si nombras h1, listas, tablas, botones, etc... seleccionaras que sus cambios de css seran para todos de su tipo*/
+body{
+    background-color: darkslategrey;
+}
+h1{
+    color: black;
+    font-size: 60px;
+    background-color: lightseagreen;
+    border-radius: 20px;
+    font-family: Ephesis, cursive;
+}
+/* Para usar mas fuentes de letras para tu navegador ve a fonts.google.com , importa sus links de la fuente escogida y luego con "font-family" asigna la fuente importada para tu HTML*/
+
+h2{
+    font-size: 25px;
+    color: darkcyan;
+}
+ 
+h3{
+    color: darkblue;
+    background-color: darkturquoise;
+    font-size: 40px;
+    font-style: consolas;
+    font-weight: lighter;
+}
+button{
+    font-size: 15px;
+    padding: 5px 25px 5px 25px;
+    outline: none;
+    background-color: purple;
+    color: white;
+    border-radius: 20px;
+}
+/* este " button;hover " es un efecto para todos los botones " button y Buton:hover " son lo mismo y/o trabajan juntos para sus efectos generales*/
+button:hover{
+    background-color: rgb(88, 0, 88);
+    cursor: pointer;
+}
+p,
+ul{
+    font-size: 20px;
+    color: black;
+
+}
+
+img{
+    width: 300px;
+    border-width: 10px;
+    border-color: limegreen;
+    border-style: double;
+    border-radius: 20px;
+}
+/* Aplicando Estilo a por medio del ID del HTML. el atributo 'id' que le damos
+a asignar en el HTML a palabras, titulos, imagenes, botones, listas, etc...Nos 
+ayuda a dar estilo unicamnete por el id y tambien sirve para trabajar 
+mejor con el JavaScript tambien.  Ejemplo: */
+#registro {
+    font-size: 50px ;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+
+}
+/* 2º forma numero dos "Selector Universal" Usamos el " * " para definir a todas las letras a que cambien Univeraslmente a ciertas especificaciones del CSS*/
+
+/* *{
+    color: gray;
+} */
+/* Aqui definimos que todas las letras del archivo vinculado html seras de color Universal de color gris */
+
+/* 3º forma numero tres "Selector de Clases" creamos class="nombre-de-la-clase" asi:
+    *EN EL HTML LA CLASE SE USA ASI:
+        <ol class="listas-pequeñas">
+            monedas
+            billetes
+        </ol>
+
+        <ul class="listas-pequeñas">
+            dinero
+            banco
+        </ul>
+    
+    *EN EL CSS LA CLASE CREADA SE USA ASI:
+        .listas-pequeñas{
+            color: chocolate;
+        }
+    Asi se asignaran el color chocolate a todos los que tengan la clase "listas-pequeñas" en el HTML
+*/
+.formulario{
+    color: forestgreen;
+}
